@@ -4,41 +4,40 @@ channels:
 
 dependencies:
   # Core Python stuff
-  - python==3.11.6
-  - pip==24.0
+  - python==3.11.15
+  - pip==26.1.1
 
   # General scientific packages
-  - numpy==1.26.4
-  - pandas==2.2.2
-  - scipy==1.13.0
-  - scikit-learn==1.4.2
+  - numpy==2.4.3
+  - pandas==3.0.2
+  - scipy==1.17.1
 
   # Plotting
-  - matplotlib==3.8.4
+  - matplotlib==3.10.9
 
   # Code testing
-  - nose==1.3.7
+  - pynose==1.5.5
 
   # Jupyter environment
-  - jupyterlab==4.0.13
-  - jupyterlab-git==0.50.0
-  - notebook==7.0.6
-  - ipython==8.16.1
-  - ipykernel==6.29.3
+  - jupyterlab==4.1.8
+  - jupyterlab-git==0.52.0
+  - notebook==7.1.3
+  - ipython==8.22.2
+  - ipykernel==7.2.0
 
   # RISE for notebook presentations
-  - jupyterlab_rise==0.42.0
+  - jupyterlab_rise==0.43.1
 
   # Nicer markdown stuff
-  - myst-nb=1.1.0
+  - myst-nb=1.4.0
 
   # Spell checking
   - jupyterlab-spellchecker=0.8.4
 
   # Code formatting
-  - black-jupyter==24.4.2
-  - flake8==7.0.0
+  - black-jupyter==26.3.1
+  - flake8==7.3.0
 
   # pip stuff
   - pip:
-    - jupyterlab_myst==2.4.2
+    - jupyterlab_myst==2.6.0
